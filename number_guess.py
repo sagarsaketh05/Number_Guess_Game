@@ -6,6 +6,7 @@ while x:
         guess=int(input("Enter a Number Between 1 to 100 : "))
         if guess>number:
             print("greater")
+            print("number")
         elif guess < number :
             print("lower")    
         else:
