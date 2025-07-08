@@ -9,6 +9,7 @@ while x:
             print("number")
         elif guess < number :
             print("lower")    
+            print("number")
         else:
             print("you guessed it correctly!")   
             break
